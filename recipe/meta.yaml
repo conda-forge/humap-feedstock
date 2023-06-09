@@ -15,7 +15,7 @@ build:
     - python setup.py build_ext -I$PREFIX/include/eigen3 install  # [arm64]
     - python setup.py build_ext -I$PREFIX/include/eigen3 install  # [linux]  
     - python setup.py build_ext -I%PREFIX%\Library\include\eigen3 install  # [win]
-  number: 0
+  number: 1
 
 requirements:
   build:
